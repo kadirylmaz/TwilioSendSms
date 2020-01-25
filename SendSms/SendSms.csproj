@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+    <PackageReference Include="Twilio" Version="5.37.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SendSms.Services\SendSms.Services.csproj" />
+    <ProjectReference Include="..\SendSms.Validator\SendSms.Validator.csproj" />
+  </ItemGroup>
+
+
+</Project>
